@@ -1,0 +1,1 @@
+Data: I hate this product, it’s awful.Predicted Sentiment: negativeData: This was a fantastic experience!Predicted Sentiment: positive
