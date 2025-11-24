@@ -20,26 +20,27 @@ Upload python file in any interpreter and run code. default data is hardcoded. T
 
 ## REULTS:
 
-text                                                label     polarity
-----------------------------------------------------------------------
-I absolutely loved this movie! It was fantastic.    positive   0.8519
-The product is terrible and broke after one day.     negative  -0.4767
-It was an average experience, nothing special.       neutral    0.0000
-I'm not sure if I liked it or not.                   neutral    0.0000
-Such a wonderful time with great friends.            positive   0.8316
+| Text                                                     | Label     | Polarity |
+|----------------------------------------------------------|-----------|----------|
+| I absolutely loved this movie! It was fantastic.         | positive  | 0.8519   |
+| The product is terrible and broke after one day.         | negative  | -0.4767  |
+| It was an average experience, nothing special.           | neutral   | 0.0000   |
+| I'm not sure if I liked it or not.                       | neutral   | 0.0000   |
+| Such a wonderful time with great friends.                | positive  | 0.8316   |
+__________________________________________________________________________________
+
 
 Model: "sequential"
-_________________________________________________________________________________
-Layer (type)               Output Shape              Param #
-===============================================================================
-dense (Dense)              (None, 64)                6464
-dropout (Dropout)          (None, 64)                0
-dense_1 (Dense)            (None, 3)                 195
-===============================================================================
-Total params: 6,659
-Trainable params: 6,659
+
+Layer (type)   | Output Shape | Param #
+---------------|--------------|---------
+Dense          | (None, 64)   | 6464
+Dropout        | (None, 64)   | 0
+Dense_1        | (None, 3)    | 195
+
+Total params: 6,659  
+Trainable params: 6,659  
 Non-trainable params: 0
-_________________________________________________________________________________
 
 
 Input: "I hate this product, it’s awful."
@@ -52,6 +53,7 @@ Input: "Not bad, could be better though."
 Predicted Sentiment: neutral
 
 Test Accuracy: 89.56%
+
 
 
 
