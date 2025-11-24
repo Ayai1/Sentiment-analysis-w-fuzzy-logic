@@ -18,7 +18,7 @@ This project utilizes fuzzy logic and neural networks to analyze sentiments from
 
 Upload python file in any interpreter and run code. default data is hardcoded. To use another dataset, replace with path/file name.
 
-REULTS:
+## REULTS:
                                                 text     label  polarity
 0  I absolutely loved this movie! It was fantastic.  positive     0.8519
 1  The product is terrible and broke after one day.  negative    -0.4767
@@ -28,6 +28,7 @@ REULTS:
 
 
 Model: "sequential"
+
 _________________________________________________________________
  Layer (type)                Output Shape              Param #
 =================================================================
@@ -42,4 +43,5 @@ _________________________________________________________________
 
 
 Test Accuracy: 89.56%
+
 
